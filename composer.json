@@ -1,0 +1,14 @@
+{
+    "name": "parzibyte/enviar-adjunto-correo",
+    "description": "Enviar correo electr\u0000nico con archivo adjunto en PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Luis Cabrera Benito",
+            "email": "parzibyte@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
