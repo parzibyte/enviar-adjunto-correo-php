@@ -32,8 +32,8 @@ if (!file_exists($nombreDelDocumento)) {
 
 
 try {
-    $phpMailer->setFrom("parzibyte@gmail.com", "Luis Cabrera Benito"); # Correo y nombre del remitente
-    $phpMailer->addAddress("contacto@parzibyte.me"); # El destinatario
+    $phpMailer->setFrom("AQUÍ VA EL CORREO DEL REMITENTE", "AQUÍ VA EL REMITENTE"); # Correo y nombre del remitente
+    $phpMailer->addAddress("AQUÍ VA EL CORREO DEL DESTINATARIO"); # El destinatario
     $phpMailer->Subject = "Archivo adjunto"; # Asunto
     $phpMailer->Body = "Hola, amigo. Estamos probando los archivos adjuntos."; # Cuerpo en texto plano
     // Aquí la magia:
